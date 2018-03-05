@@ -1,0 +1,250 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    /*flex-basis:50%;*/
+    flex-basis:800px;
+
+}
+
+
+.item{
+    position:relative;
+    width:200px;
+    height:200px;
+}
+
+.title{
+    flex-basis:100%;
+    text-align:center;
+}
+
+.day{
+    position:absolute;
+    top:50%;
+    left:50%;
+    color:white;
+    font-size:25px;
+}
+
+.grey > .day{
+    top:0;
+    left:auto;
+    right:0;
+    padding:5px;
+}
+
+
+.red{
+    /*background-color:tomato;*/
+    box-shadow: 200px 200px tomato inset;
+}
+
+.cyan{
+    /*background-color:LightSkyBlue;*/
+    box-shadow: 200px 200px LightSkyBlue inset;
+
+}
+
+.grey{
+    background-color:lightgrey;
+
+}
+
+
+/*images*/
+#door0{
+    /*background-image: url(../img/giphy.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door1{
+    /*background-image: url(../img/door1.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door2{
+    /*background-image: url(../img/door2.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door3{
+    /*background-image: url(../img/door3.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door4{
+
+    /*background-image: url(../img/door4.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door5{
+
+     /*background-image: url(../img/door5.gif);*/
+     background-repeat: no-repeat;
+     background-position:center;
+}
+
+#door6{
+
+    /*background-image: url(../img/door6.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door7{
+
+    /*background-image: url(../img/door7.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door8{
+    /*background-image: url(../img/giphy.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door9{
+    /*background-image: url(../img/giphy.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door10{
+    /*background-image: url(../img/giphy.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door11{
+    /*background-image: url(../img/door1.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door12{
+    /*background-image: url(../img/door2.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door13{
+    /*background-image: url(../img/door3.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door14{
+
+    /*background-image: url(../img/door4.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door15{
+
+     /*background-image: url(../img/door5.gif);*/
+     background-repeat: no-repeat;
+     background-position:center;
+}
+
+#door16{
+
+    /*background-image: url(../img/door6.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door17{
+
+    /*background-image: url(../img/door7.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door18{
+
+    /*background-image: url(../img/door7.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door19{
+    /*background-image: url(../img/door1.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door20{
+    /*background-image: url(../img/door1.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door21{
+    /*background-image: url(../img/door1.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door22{
+    /*background-image: url(../img/door1.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#door23{
+    /*background-image: url(../img/door1.gif);*/
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+
+@media screen and (max-width: 800px) {
+    .container{
+
+        flex-basis:600px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+
+        flex-basis:400px;
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container{
+
+        flex-basis:200px;
+
+    }
+}
+
+
+
